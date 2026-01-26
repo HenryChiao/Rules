@@ -119,7 +119,7 @@ sniffer:
 # 代理模式
 tun:
   enable: true
-  stack: gvisor
+  stack: mixed
   mtu: 9000
   dns-hijack:
     - "any:53"
